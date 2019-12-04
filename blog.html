@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>intent</title>
+
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/jquery.bxslider.min.css" rel="stylesheet">
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/jquery-ui.css" rel="stylesheet">
+	
+	<style>
+	  body{
+	    background: #f9f9f9;
+	  }
+	  .bx-wrapper .bx-pager{
+	    display:none;
+	  }
+	  .bx-wrapper .bx-controls-direction a{
+	    top: 15%;
+		margin-left: 0%;
+	  }
+	  .bx-wrapper .bx-next{
+	    left: 95%;
+        right: auto;
+	  }
+	  #no-border{
+	    border:none;
+		padding-bottom: 75px;
+	  }
+	   @media screen and (max-width: 655px){
+	    .bx-wrapper .bx-controls-direction a {
+			top: 0%;
+			margin-left: -1%;
+        }
+   }
+   
+    @media screen and (max-width: 512px){
+	   .bx-wrapper .bx-controls-direction a {
+		top: -13%;
+		margin-left: -2%;
+     }
+	}
+	@media screen and (max-width: 416px){
+	   .bx-wrapper .bx-next {
+         left: 90%;
+      }
+	  .bx-wrapper .bx-prev {
+        left: 20px;
+      }
+	  .bx-wrapper .bx-controls-direction a {
+        top: -30%;
+      }
+	}
+    @media screen and (max-width: 345px){
+	  .bx-wrapper .bx-controls-direction a{
+	    display:none;
+	  }
+	}
+   </style>
+	
+</head>
+<body>
+
+<!--header icon-->
+<section class="header-icon">
+  <table class="header-tble">
+   <tr>
+    <td><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></td>
+    <td><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></td>
+    <td><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></td>
+    <td><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></td>
+   </tr>
+  </table>
+</section><!--end header icon-->
+
+<!--main nav-->
+
+<section class="main-nav">
+  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <div class="main-logo">
+	    <h1><a href="#"><span>i</span>Intent</a></h1>
+	  </div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      
+      <ul class="nav navbar-nav navbar-right">
+       <li><a href="index.html">HOME</a></li>
+       <li><a href="blog.html">BLOG</a></li>
+       <li><a href="portfolio.html">PROTFOLIO</a></li>
+       <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+</section> <!--end main nav-->
+
+<!--header image-->
+<section class="header-image">
+   <div class="container">
+     <div class="blog">
+     <h1>Blog</h1>
+	 <p>Keep in the looop</p>
+   </div>
+   </div>
+</section><!--end header image-->
+
+<!--amazing protfolio-->
+
+<section class="middle-option">
+  <div class="container" id="inside-border">
+    <h3>Amazing Free Portfolio PSD Theme</h3>
+    <div class="row">
+	 <div class="col-md-9 col-sm-9">
+	 
+	   <!--top slider-->
+	   
+	   <div class="top-slider">
+	     <ul class="bxslider" id="myslider">
+		  <li><img src="images/25.png" title="Funky roots" /></li>
+		  <li><img src="images/26.png" title="Funky roots" /></li>
+		</ul>
+	   </div>
+	   
+	   <div class="slider-text">
+	    <div class="row">
+		 <div class="col-md-3">
+		  <div class="slider-date">
+		   <p>
+		    Date<br>
+			<span>Aprail 15,2017</span>
+		   </p>
+		   <p>
+		     Tag<br>
+			 <span>Website Design</span>
+		   </p>
+		   <p>
+		     Comments<br>
+			 <span>4</span>
+		   </p>
+		   </div>
+		 </div>
+		 <div class="col-md-9">
+		   <div class="slider-lorem">
+		    <p>
+		     Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior. </p><br>
+			 <p class="Maecenas">
+			  Maecenas ipsum metus, semper hendrerit varius mattis,  sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis  ...
+			 </p>
+		   </div>
+		   </div>
+		  
+		 
+		</div>
+	   </div>
+		
+		<!--video section-->
+		
+		<section class="video-section">
+		  <h3>Reimer Wedding Footage</h3>
+		  <video  controls poster="images/28.png"no-repeat>
+			  <source src="video/1.mp4" type="video/mp4">
+			  <source src="movie.ogg" type="video/ogg">
+			  Your browser does not support the video tag.
+		</video> 
+		
+		</section>
+		 <div class="slider-text">
+	    <div class="row">
+		 <div class="col-md-3 col-sm-4">
+		  <div class="slider-date">
+		   <p>
+		    Date<br>
+			<span>Aprail 15,2017</span>
+		   </p>
+		   <p>
+		     Tag<br>
+			 <span>Website Design</span>
+		   </p>
+		   <p>
+		     Comments<br>
+			 <span>4</span>
+		   </p>
+		   </div>
+		 </div>
+		 <div class="col-md-9">
+		   <div class="slider-lorem">
+		    <p>
+		     Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior. </p><br>
+			 <p class="Maecenas">
+			  Maecenas ipsum metus, semper hendrerit varius mattis,  sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis  ...
+			 </p>
+		   </div>
+		   </div>
+		  
+		 
+		</div>
+	   </div><!--end video-->
+	   
+	   <!--sound clip-->
+	   <section class="sound-clip">
+	     <h3>Sound Clip of Content</h3>
+		<div class="audio">
+		 <audio controls>
+		  <source src="horse.ogg" type="audio/ogg">
+		  <source src="horse.mp3" type="audio/mpeg">
+		   Your browser does not support the audio element.
+		</audio>
+		</div>
+	   </section>
+	   
+	   <div class="slider-text" id="no-border">
+	    <div class="row">
+		 <div class="col-md-3">
+		  <div class="slider-date">
+		   <p>
+		    Date<br>
+			<span>Aprail 15,2017</span>
+		   </p>
+		   <p>
+		     Tag<br>
+			 <span>Website Design</span>
+		   </p>
+		   <p>
+		     Comments<br>
+			 <span>4</span>
+		   </p>
+		   </div>
+		 </div>
+		 <div class="col-md-9">
+		   <div class="slider-lorem">
+		    <p>
+		     Lorem ipsum dolor sit amet, sit an molestie neglegentur concludaturque. Possim hendrerit in usu. Iriure delectus mea at, vis dicit laudem ex, vel eu possim imperdiet consequuntur. Brute ipsum tincidunt vim ei. Ne eos vidisse splendide instructior. </p><br>
+			 <p class="Maecenas">
+			  Maecenas ipsum metus, semper hendrerit varius mattis,  sed magna posuere ut elementum enim rutrum. Nam mi erat, porta id ultrices nec, pellentesque vel nunc. Cras varius fermentum iaculis  ...
+			 </p>
+		   </div>
+		   </div>
+		  
+		 
+		</div>
+		 <div class="page-no">
+		   <ul>
+		     <li class="one"><a href="#">1</a></li>
+		     <li><a href="#">2</a></li>
+		     <li><a href="#">3</a></li>
+		   </ul>
+		 </div>
+		
+	   </div>
+	   
+	   
+		
+	 </div><!--end left section-->
+	 
+	 <!--inside-text-->
+	 <div class="col-md-3 col-sm-3">
+	 
+	   <div class="inside-text">
+	     <div class="about-intent">
+		   <h3>About Intent</h3>
+		   <p>
+		    Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. Integer nec odio. Praese nt libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem ati.
+		   </p>
+		 </div>
+		 <div class="categories">
+		  <h3>Categories</h3>
+		  <ul>
+		    <li><a href="#">Video(3)</a></li>
+		    <li><a href="#">Sports(5)</a></li>
+		    <li><a href="#">Media(2)</a></li>
+		    <li><a href="#">Entertaintment(7)</a></li>
+		    <li><a href="#">Life(4)</a></li>
+		    <li><a href="#">Supper cool Stuff(8)</a></li>
+		  </ul>
+		 </div>
+		 
+		 <div class="advertise">
+		   <h3>Adertise</h3>
+		   <div class="row">
+		     <div class="col-md-6">
+			   <div class="add-img">
+			    <img src="images/27.png">
+			   </div>
+			 </div>
+		     <div class="col-md-6">
+			   <div class="add">
+			     <h4>
+				  Advertise<br>Here
+				 </h4>
+			   </div>
+			 </div>
+		   </div>
+		   <div class="row">
+		     <div class="col-md-6">
+			   <div class="add">
+			     <h4>
+				  Advertise<br>Here
+				 </h4>
+			   </div>
+			 </div>
+		     <div class="col-md-6">
+			   <div class="add">
+			     <h4>
+				  Advertise<br>Here
+				 </h4>
+			   </div>
+			 </div>
+		   </div>
+		 </div>
+		 
+	   </div>
+	 </div>
+	 
+	 
+	 
+	</div>
+  </div>
+</section>
+
+
+<!--footer-->
+
+<section class="footer">
+ <div class="container">
+   <div class="row">
+    <div class="col-md-4">
+	  <div class="footer-txt">
+	   <h3>RECENT POST</h3>
+	   <p class="post">
+	     Wedding Photos that Will Blow Your 
+         Mind Away.
+	   </p>
+	   <p  class="post">
+	    Intent WordPress Theme Features are 
+        Amazing.
+	   </p>
+	   <p  class="post">
+	    A New Era of Design is Here
+	   </p>
+	   <p>
+	    Creativio WordPress Theme now
+        Available for Sale.
+	   </p>
+	  </div>
+	</div>
+    <div class="col-md-4">
+	 <div class="footer-txt2">
+	   <h3>ABOUT INTENT</h3>
+	   <p>
+	     Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit commune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad. 
+	   </p>
+	   <p class="id">
+		  Id vitae regione has. In tollit dicant vim. His ex detracto percipitur, id vis nibh quas illum. Delicata dissentiet ius ne, latine euripidis quaerendum et vis.
+	   </p>
+	 </div>
+	</div>
+    <div class="col-md-4">
+	  <div class="footer-txt3">
+	    <h3>SOCIAL MEDIA</h3>
+		<div class="row">
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/3.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/4.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/5.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		   <a href="#"><img src="images/6.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/7.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/8.png"></a>
+		  </div>
+		</div>
+		
+		<div class="row">
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/9.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/10.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/11.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		   <a href="#"><img src="images/12.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/13.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/14.png"></a>
+		  </div>
+		</div>
+		
+		<div class="row">
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/15.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/16.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/17.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		   <a href="#"><img src="images/18.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/19.png"></a>
+		  </div>
+		  <div class="col-md-2 col-sm-2 col-xs-2">
+		    <a href="#"><img src="images/20.png"></a>
+		  </div>
+		</div>
+		
+	  </div>
+	</div>
+   </div>
+ </div>
+</section>
+
+
+<!--js link-->
+
+		<script src="js/main.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery-ui.js"></script>
+		<script src="js/wow.js"></script>
+		<script src="js/custoom.js"></script>
+
+</body>	
+</html>
